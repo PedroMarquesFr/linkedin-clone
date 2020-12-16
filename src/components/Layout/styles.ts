@@ -7,8 +7,16 @@ export const Container = styled.div`
   @media (min-width: 1180px) {
     > main {
       margin: 0 30px;
-      display:flex;
-
+      display: flex;
+      justify-content: center;
     }
+    .left-column,
+    .right-column {
+      display: unset;
+    }
+  }
+  .left-column,
+  .right-column {
+    display: none;
   }
 `;
